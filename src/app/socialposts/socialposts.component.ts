@@ -8,16 +8,16 @@ import { Component, OnInit } from "@angular/core";
 export class SocialpostsComponent implements OnInit {
   listOfPosts: object[] = [
     {
-      title: "Dog",
-      post: "Lorem...."
+      title: "Angular",
+      post: "This is when it gets tricky..."
     },
     {
-      title: "Cat",
-      post: "Lorem...."
+      title: "JavaScript",
+      post: "That was a whirlwind but pretty cool."
     },
     {
-      title: "Pig",
-      post: "Lorem..."
+      title: "CSS",
+      post: "Now this is fashionably, fresh!"
     }
   ];
   showForm: boolean = false;
