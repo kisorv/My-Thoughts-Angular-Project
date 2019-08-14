@@ -1,0 +1,21 @@
+form {
+  background-color: #b1ddea;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#post {
+  height: 50%;
+}
+
+input,
+label,
+button {
+  margin-left: 20px;
+  margin-right: 20px;
+}
